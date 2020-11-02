@@ -30,7 +30,7 @@ const generateHtml = (data) => {
  	console.log(data)
  	const html = `
  			<h2 class="name" >${data.name}</h2>
- 			<img src="${data.sprites.front_default}"width="150" height="100">
+ 			<img src="${data.sprites.front_default}"width="100" height="100">
  			<div class="details">
  			<h4>Height: ${data.height}</h4>
  			<h4>Weight: ${data.weight}</h4>
